@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* ============================================================
+   FLORENTIA — Global Styles
+   ============================================================ */
+
+@theme {
+  --color-ivory: #FAF8F4;
+  --color-blush: #EAD8D2;
+  --color-rose: #B98587;
+  --color-burgundy: #542C39;
+  --color-olive: #777B65;
+  --color-charcoal: #292725;
+
+  --font-serif: 'Cormorant Garamond', 'Georgia', serif;
+  --font-sans: 'DM Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-charcoal);
+  background-color: var(--color-ivory);
+  overflow-x: hidden;
+}
+
+/* Serif headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-blush);
+  color: var(--color-burgundy);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-ivory);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-blush);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-rose);
+}
+
+/* Image loading skeleton */
+.img-skeleton {
+  background: linear-gradient(110deg, var(--color-blush) 8%, #f0e6e1 18%, var(--color-blush) 33%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s linear infinite;
+}
+
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
