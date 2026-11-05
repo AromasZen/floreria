@@ -85,7 +85,7 @@ export const siteConfig = {
       name: 'Amor en Flor',
       price: 1450,
       description: 'Nuestra composición más romántica: rosas rojas, peonías y detalles exclusivos de temporada.',
-      image: 'https://images.unsplash.com/photo-1490750967868-88aa4f44baee?w=600&q=80&auto=format',
+      image: 'https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?w=600&q=80&auto=format',
     },
     {
       id: 'primavera',
@@ -112,7 +112,7 @@ export const siteConfig = {
     {
       title: 'Cumpleaños',
       description: 'Celebra con color y alegría. Arreglos diseñados para hacer de cada cumpleaños un recuerdo memorable.',
-      image: 'https://images.unsplash.com/photo-1518709594023-6eab02b2f7df?w=600&q=80&auto=format',
+      image: 'https://images.unsplash.com/photo-1533616688419-b7a585564566?w=600&q=80&auto=format',
       cta: 'Ver opciones',
     },
     {
